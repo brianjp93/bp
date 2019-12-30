@@ -8,13 +8,14 @@ import {
 
 import Home from './components/general/home'
 import Zernike from './components/projects/zernike'
+import NavBar from './components/general/navbar'
 
 function App() {
   return (
     <div>
       <Router>
         <div>
-          {/*<NavBar />*/}
+          <NavBar />
           <Switch>
             {/*<Route path='/contact'>
               <Contact />

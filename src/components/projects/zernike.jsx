@@ -10,7 +10,6 @@ function Zernike() {
     return (
         <Container maxWidth='md'>
             <div>
-
                 <h1>Zernike Polynomials</h1>
 
                 <p>
@@ -90,8 +89,8 @@ function Zernike() {
                         </p>
                         <p>
                             Say we wanted to make a phase plate.  This can be done by making a
-                            transparent object with a constant index of refraction (n) but varying thickness (d).
-                            This can also be done using a GRIN lens with varying "n" and constant "d".
+                            transparent object with a constant index of refraction <Latex>$n$</Latex> but varying thickness <Latex>$d$</Latex>.
+                            This can also be done using a GRIN lens with varying <Latex>$n$</Latex> and constant <Latex>$d$</Latex>.
                         </p>
                         <p>
                             Take a look at the following pristine drawing.  Wow, that should be in a
@@ -120,7 +119,7 @@ function Zernike() {
                                 <Latex displayMode={true}>{`$d = \\frac{632.8nm}{.1} = 6.328\\mu m$`}</Latex>
                             </p>
                             <p>
-                                This tells us that we need a lens 6.328 microns thick to attain a phase shift of 2pi.
+                                This tells us that we need a lens 6.328 microns thick to attain a phase shift of <Latex>$2\pi$</Latex>.
                             </p>
                             <p>
                                 An important thing to note is that technically the beam will
@@ -142,7 +141,7 @@ function Zernike() {
                             and how many layers (x) you'd like.  It creates x layers of binary images which, when averaged,
                             will create the contour plot of the zernike polynomial you specified.
                         </p>
-                        <p>Here is an example I did with n=5, m=3.</p>
+                        <p>Here is an example I did with <Latex>$n=5, m=3$</Latex>.</p>
                         <img
                             alt="gif of many different layers of images combining to create a radial depth map with zernike polynomials."
                             src="https://lh3.googleusercontent.com/HNNykAwBCeCT-90xC121WxWg05Sap326Ob3sWBUTte1-DJiLFVc9FFrWtKAyrpZE5wSWCtIuhpPr5Ga_7R-DiHvqr4i5wtbYImuTFdqAocEWkKdvxyS9UgIbKfxVfG6r6n2L78hfnBM23nkY-stw3iAOntP6_uHZ5C4BW94Gj4UM5z3RAN7OBNasr6viBSkt8QussCoUIBtrkDqaUU1VPuXXizaGrToMRkSJ6mOlvoQu8CajPod15r32MMay0FjTUIN6BSelqxgLYAVri_w5xVoUPv-uzuFsppMc6Wr3Ta3vGtatFghXOjCT5CMpQrG4FX9gCb1VdaocvE1ZpM77FYpz5cIlSRdfu1yebCFpotc-NGdU94vYlFaOxqgb3rprO_4tKGvEhkgE6DP8_xZaEmbw5u3VvzFU8_tcBsK7jUkaPaj-acW_J2ZOU0eJN2gcE2K1bQf2EiDWJzaS9Wj4kyB4SLMM8sZr_js1TgnHhn5h_vNK01eN261PtrXedEZPHfRH1a4jrDvXOg2VPOOmzeu7bEgUjHMr55hijK75HOl20VAHr4I42o8k_6oWV8y4EDkC=s500-no"
