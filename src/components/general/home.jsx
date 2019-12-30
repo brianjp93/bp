@@ -66,71 +66,65 @@ function Home() {
                 <div>
                     <div style={{fontSize: 25, maxWidth: div_width, textAlign: 'center'}}>Projects</div>
 
-                    <div>
-                        <div><Link to='/zernike'>Zernike Polynomials</Link></div>
-                    </div>
-                    <div style={{marginLeft: 30}}>
-                        <div style={{maxWidth: div_width, marginTop: 5}}>
-                            During my junior year, I joined a physics lab that was dealing
-                            with GRIN lenses.  They wanted to plot different sums of zernike polynomials
-                            and be able to find a way to print out many layers of glass to average out
-                            to some given configuration.  This was my attempt at that.
-                        </div>
-                    </div>
-                    <div style={{height: 10}}></div>
-
-                    <div>
-                        <div>
-                            <a
-                                target='_blank'
-                                rel="noopener noreferrer"
-                                href="http://www.hardstuck.club/na/import%20antigrvty/">
-                                hardstuck.club
-                            </a>{' '}- A League of Legends Site
-                        </div>
-                    </div>
-                    <div style={{marginLeft: 30}}>
-                        <div style={{maxWidth: div_width}}>
-                            <div style={{fontSize: 'small', fontWeight: 'bold'}}>
-                                Django, Reactjs, EC2, RDS, ElastiCache
-                            </div>
+                    <div style={{maxWidth: div_width}}>
+                        
+                        <Link to='/zernike'>Zernike Polynomials</Link>{' '}- bend the light
+                        <div style={{marginLeft: 30}}>
                             <div style={{marginTop: 5}}>
-                                League of Legends is a 5v5 MOBA and is one of the most
-                                popular video games in the world.  I enjoy playing and
-                                looking at all of the stats and massive amounts of data
-                                that Riot keeps on each game.  This site displays some
-                                of that data in what is hopefully an "easy to view" format.
+                                During my junior year, I joined a physics lab that was dealing
+                                with GRIN lenses.  They wanted to plot different sums of zernike polynomials
+                                and be able to find a way to print out many layers of glass to average out
+                                to some given configuration.  This was my attempt at that.
                             </div>
                         </div>
-                    </div>
-                    <div style={{height: 10}}></div>
+                        <div style={{height: 10}}></div>
 
-                    <div>
-                        <div>
-                            <a
-                                target='_blank'
-                                rel="noopener noreferrer"
-                                href="http://suitesale.com">
-                                suitesale.com
-                            </a>{' '}- Ecommerce Inventory/Order Management System
-                        </div>
-                    </div>
-                    <div style={{marginLeft: 30}}>
-                        <div style={{maxWidth: div_width}}>
-                            <div style={{fontSize: 'small', fontWeight: 'bold'}}>
-                                Django, Reactjs, Celery Task Queue, SQS, RDS, EC2
-                            </div>
-                            <div style={{marginTop: 5}}>
-                                SuiteSale is a web application which communicates with
-                                many popular ecommerce sites and shipping services to
-                                help small to medium sized businesses keep track of,
-                                and automate inventory management.  Orders are imported
-                                into SuiteSale periodically and inventory is debited
-                                automatically.  The new inventory data is then pushed out
-                                to every connected ecommerce site like Amazon, eBay,
-                                Shopify, etc...
+                        <a
+                            target='_blank'
+                            rel="noopener noreferrer"
+                            href="http://www.hardstuck.club/na/import%20antigrvty/">
+                            hardstuck.club
+                        </a>{' '}- A League of Legends Site
+                        <div style={{marginLeft: 30}}>
+                            <div>
+                                <div style={{fontSize: 'small', fontWeight: 'bold'}}>
+                                    Django, Reactjs, EC2, RDS, ElastiCache
+                                </div>
+                                <div style={{marginTop: 5}}>
+                                    League of Legends is a 5v5 MOBA and is one of the most
+                                    popular video games in the world.  I enjoy playing and
+                                    looking at all of the stats and massive amounts of data
+                                    that Riot keeps on each game.  This site displays some
+                                    of that data in what is hopefully an "easy to view" format.
+                                </div>
                             </div>
                         </div>
+                        <div style={{height: 10}}></div>
+
+                        <a
+                            target='_blank'
+                            rel="noopener noreferrer"
+                            href="http://suitesale.com">
+                            suitesale.com
+                        </a>{' '}- Inventory/Order Management System
+                        <div style={{marginLeft: 30}}>
+                            <div>
+                                <div style={{fontSize: 'small', fontWeight: 'bold'}}>
+                                    Django, Reactjs, Celery Task Queue, SQS, RDS, EC2
+                                </div>
+                                <div style={{marginTop: 5}}>
+                                    SuiteSale is a web application which communicates with
+                                    many popular ecommerce sites and shipping services to
+                                    help small to medium sized businesses keep track of,
+                                    and automate inventory management.  Orders are imported
+                                    into SuiteSale periodically and inventory is debited
+                                    automatically.  The new inventory data is then pushed out
+                                    to every connected ecommerce site like Amazon, eBay,
+                                    Shopify, etc...
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
