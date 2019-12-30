@@ -9,43 +9,53 @@ function Home() {
     return (
         <div>
             <div style={{paddingLeft: 30, paddingRight: 30, marginTop: 30, marginBottom: 400}}>
-                <div style={{fontSize: 30}}>
-                    Brian Perrett
-                </div>
-                <div>
-                    Denver, CO 80204
-                </div>
-
-                <div style={{height: 10}}>
-                </div>
-
-                <div>
-                    <a target='_blank' rel="noopener noreferrer" href="https://github.com/brianjp93">
-                        >>> github
+                <div style={{display: 'inline-block', marginRight: 8}}>
+                    <a href="https://github.com/brianjp93/aoc2019">
+                        <img
+                            style={{height: 160}}
+                            src="/static/day15.gif"
+                            alt="AOC Day 15 animation"
+                            title="An animation of a BFS of an unexplored maze. This was for the 15th day of AOC2019."/>
                     </a>
                 </div>
+                <div style={{display: 'inline-block', verticalAlign: 'text-bottom'}}>
+                    <div style={{fontSize: 30}}>
+                        Brian Perrett
+                    </div>
+                    <div>
+                        Denver, CO 80204
+                    </div>
 
-                <div style={{height: 20}}>
-                </div>
+                    <div style={{height: 10}}>
+                    </div>
 
+                    <div>
+                        <a target='_blank' rel="noopener noreferrer" href="https://github.com/brianjp93">
+                            >>> github
+                        </a>
+                    </div>
 
-                <div style={{maxWidth: div_width}}>
-                    <Table size='small'>
-                        <TableBody>
-                            <TableRow>
-                                <TableCell style={{fontWeight: 'bold'}}>
-                                    languages
-                                </TableCell>
-                                <TableCell>
-                                    python, javascript, HTML, CSS
-                                </TableCell>
-                            </TableRow>
-                            <TableRow>
-                                <TableCell style={{fontWeight: 'bold'}}>frameworks</TableCell>
-                                <TableCell>django, reactjs</TableCell>
-                            </TableRow>
-                        </TableBody>
-                    </Table>
+                    <div style={{height: 20}}>
+                    </div>
+
+                    <div style={{maxWidth: div_width}}>
+                        <Table size='small'>
+                            <TableBody>
+                                <TableRow>
+                                    <TableCell style={{fontWeight: 'bold'}}>
+                                        languages
+                                    </TableCell>
+                                    <TableCell>
+                                        python, javascript, HTML, CSS
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell style={{fontWeight: 'bold'}}>frameworks</TableCell>
+                                    <TableCell>django, reactjs</TableCell>
+                                </TableRow>
+                            </TableBody>
+                        </Table>
+                    </div>
                 </div>
 
                 <div style={{height: 30}}></div>
