@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import { makeStyles } from '@material-ui/core/styles'
-import {AppBar, Toolbar, Typography} from '@material-ui/core'
+import {AppBar, Toolbar, Typography, Icon} from '@material-ui/core'
 
 const useStyles = makeStyles({
     nav: {
@@ -17,7 +17,7 @@ function NavBar() {
                 <Typography variant="h3">
                     <Link to='/'>
                         <span>
-                            BP
+                            <Icon>home</Icon>
                         </span>
                     </Link>
                 </Typography>

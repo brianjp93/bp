@@ -31,10 +31,20 @@ function Zernike() {
                     </div>
                     <div className="panel-body">
                         <p>
-                            I have created and compiled (with cx freeze) a standalone program in python using matplotlib, numpy, and other scientific 3rd party libraries.  This program will plot any valid Zernike Polynomial given n and m inputs, where n is the radial order, and m is the Azimuthal Frequency. 
+                            I have created and compiled (with cx freeze) a
+                            standalone program in python using matplotlib,
+                            numpy, and other scientific 3rd party libraries.
+                            This program will plot any valid Zernike Polynomial
+                            given n and m inputs, where n is the radial order,
+                            and m is the Azimuthal Frequency. 
                         </p>
                         <p>
-                            To run the program, unzip the zip file, and go into the Zernike Plotter folder.  Then run the Zernike.exe executable.  All the files must be kept in their original folders, or else the program will not work.  You may download this below.
+                            To run the program, unzip the zip file, and go
+                            into the Zernike Plotter folder.
+                            Then run the Zernike.exe executable.  All
+                            the files must be kept in their original
+                            folders, or else the program will not work.
+                            You may download this below.
                         </p>
                         <table>
                             <thead><strong>Downloads</strong></thead>
