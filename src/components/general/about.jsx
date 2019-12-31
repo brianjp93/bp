@@ -26,6 +26,7 @@ function About() {
 
     return (
         <Swipe
+            tolerance={150}
             onSwipeRight={() => {
                 setIndex(index - 1)
             }}
