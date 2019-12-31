@@ -9,6 +9,7 @@ import {
 import Home from './components/general/home'
 import Zernike from './components/projects/zernike'
 import NavBar from './components/general/navbar'
+import About from './components/general/about'
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
             </Route>*/}
             <Route exact path="/zernike">
               <Zernike />
+            </Route>
+            <Route exact path='/about'>
+              <About />
             </Route>
             <Route path="/">
               <Home />

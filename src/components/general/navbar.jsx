@@ -22,10 +22,10 @@ function NavBar() {
                     </Link>
                 </Typography>
 
-                {/*<Typography variant="h6">
+                <Typography variant="h6">
                     <div style={{display: 'inline-block', marginLeft: 30}}></div>
-                    <Link to='/contact'>Contact</Link>
-                </Typography>*/}
+                    <Link to='/about' style={{textDecoration: 'none', verticalAlign: 'sub'}}>???</Link>
+                </Typography>
             
             </Toolbar>
         </AppBar>
