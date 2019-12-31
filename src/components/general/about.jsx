@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Container } from '@material-ui/core'
+import Swipe from 'react-easy-swipe'
 
 function About() {
     let [index, setIndex] = useState(0)
@@ -24,15 +25,23 @@ function About() {
     })
 
     return (
-        <div>
-            <Container maxWidth='sm'>
-                <div style={{height: 50}}></div>
+        <Swipe
+            onSwipeRight={() => {
+                setIndex(index - 1)
+            }}
+            onSwipeLeft={() => {
+                setIndex(index + 1)
+            }}>
+            <div style={{minHeight: 800}}>
+                <Container maxWidth='sm'>
+                    <div style={{height: 50}}></div>
 
-                <div style={{fontSize: 25}}>
-                    <Show index={index} />
-                </div>
-            </Container>
-        </div>
+                    <div style={{fontSize: 25}}>
+                        <Show index={index} />
+                    </div>
+                </Container>
+            </div>
+        </Swipe>
     )
 }
 
@@ -62,7 +71,10 @@ function Show(props) {
             </div>
 
             <div style={{paddingTop: 10, ...caption}}>
-                Use right(or L) and left(or J) arrow to go next or back.
+                <div>
+                    Use right(or L) and left(or J) arrow to go next or back.
+                </div>
+                <div>You can also swipe left and right.</div>
             </div>
         </div>,
         <div>
