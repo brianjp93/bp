@@ -3,7 +3,6 @@ import { Container } from '@material-ui/core'
 
 function About() {
     let [index, setIndex] = useState(0)
-    console.log(index)
     let handleKeyDown = (event) => {
         if (['l', 'L', 'ArrowRight'].indexOf(event.key) >= 0) {
             setIndex(index+1)
@@ -17,11 +16,9 @@ function About() {
     }
     // USE RIGHTARROW/LEFTARROW TO PROGRESS IN THE SLIDESHOW
     useEffect(() => {
-        console.log('adding event listener')
         document.addEventListener('keydown', handleKeyDown, false)
 
         return () => {
-            console.log('removing event listener')
             document.removeEventListener('keydown', handleKeyDown, false)
         }
     })
@@ -29,9 +26,8 @@ function About() {
     return (
         <div>
             <Container maxWidth='sm'>
-                <div style={{height: 100}}></div>
+                <div style={{height: 50}}></div>
 
-                
                 <div style={{fontSize: 25}}>
                     <Show index={index} />
                 </div>
@@ -41,7 +37,7 @@ function About() {
 }
 
 function Show(props) {
-    let img_style = {maxWidth: 500, borderRadius: 7}
+    let img_style = {maxWidth: 500, borderRadius: 7, width: '100%'}
     let caption = {fontSize: 15}
     let parts = [
         <div>
