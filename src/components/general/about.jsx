@@ -80,6 +80,15 @@ function Show(props) {
         </div>,
         <div>
             <div>
+                Uhhhhhhh....
+            </div>
+            <div>
+                What should I talk about?
+            </div>
+            <div>Where I was born?</div>
+        </div>,
+        <div>
+            <div>
                 I was born in Seattle.
                 <img src="/static/seattle.png" alt="Seattle map" style={img_style}/>
                 <div>
@@ -90,35 +99,25 @@ function Show(props) {
             </div>
         </div>,
         <div>
-            <div>
-                And here's a photo of me about to kidnap my cousins' dogs.
-            </div>
-            <img
-                style={img_style}
-                src={'/static/slideshow/doggos.jpg'}
-                alt="Cute doggos"/>
-        </div>,
-        <div>
-            <div>You're welcome.</div>
+            Great.  Glad we got that out of the way.
         </div>,
         <div>
             <div>
-                I spent most of my school years undecided about
-                what I wanted to do.  I only knew that I would
-                tend toward math and science.
+                Now what..?
+            </div>
+            <div>
+                School?  I did school.
             </div>
         </div>,
         <div>
-            I applied to many schools toward the end of high school.
-            Every single one of them was a California school aside from
-            1, which ironically, is the one I ended up going to.
+            I went to the University of Oregon and studied phsyics
+            along with math and computer science.
             <img
                 style={img_style}
                 src={'/static/slideshow/humpylumpy.jpg'}
                 alt="humpy lumpy lawn"/>
         </div>,
         <div>
-            <div>The University of Oregon, in Eugene.</div>
             <div>It is very pretty there.</div>
             <img
                 style={img_style}
@@ -174,6 +173,7 @@ function Show(props) {
                 alt="Jamie wearing my glasses."/>
             <div style={caption}>Sorry Jamie, wearing my glasses doesn't make you cool like me.</div>
         </div>,
+
         <div>
             <img
                 style={img_style}
@@ -183,8 +183,77 @@ function Show(props) {
         </div>,
 
         <div>
+            <img
+                style={img_style}
+                src="/static/slideshow/group blue pool.jpg"
+                alt="blue pool with people" />
+            <div style={caption}>Running around outside.</div>
+        </div>,
+
+        <div>
+            <img
+                style={img_style}
+                src="/static/slideshow/theloop.jpg"
+                alt="Eating churros" />
+            <div style={caption}>nerds</div>
+        </div>,
+
+        <div>
             <div>
-                This is the end of the slides, but imma add more.
+                So yeah.  Oregon was cool.
+                <div>
+                    My friends are alright.
+                </div>
+            </div>
+        </div>,
+
+        <div>
+            <div>
+                After graduating I worked for a few years
+                at a company called Moonlight Feather.
+            </div>
+            <div>
+                They sell feathers online.
+            </div>
+        </div>,
+
+        <div>
+            <div>
+                This is exactly what I planned to do with my
+                physics degree.
+            </div>
+        </div>,
+
+        <div>
+            <div>
+                It was a good time for the most part.
+            </div>
+            <div>
+                I learned a lot.  I spent most of my time writing
+                an inventory and order management web application.
+            </div>
+        </div>,
+
+        <div>
+            <div>
+                It was during this time that I learned a lot about django
+                and react.  I built the system on top of the these frameworks.
+            </div>
+            <img style={img_style} src="/static/slideshow/workcode.jpg" alt="work code"/>
+            <div>
+                I had a lot of fun problem solving through the issues
+                of synchronizing orders and inventory between all of the
+                ecommerce sites we used.
+            </div>
+
+        </div>,
+
+        <div>
+            <div style={{fontSize: 40, textAlign: 'center'}}>
+                End
+            </div>
+            <div>
+                This is the end of the slides for now, but imma add more.
             </div>
 
             <div>Hold your horses.</div>
