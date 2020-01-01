@@ -237,7 +237,7 @@ function Show(props) {
         <div>
             <div>
                 It was during this time that I learned a lot about django
-                and react.  I built the system on top of the these frameworks.
+                and react.  I built the system on top of these frameworks.
             </div>
             <img style={img_style} src="/static/slideshow/workcode.jpg" alt="work code"/>
             <div>
