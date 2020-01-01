@@ -55,7 +55,10 @@ function Show(props) {
                 Hello.
             </div>
             <div>
-                My name is Brian Perrett.    
+                My name is Brian Perrett.
+            </div>
+            <div>
+                That's me taking this photo with two of my friends in Korea.
             </div>
             <div>
                 <img
@@ -64,11 +67,8 @@ function Show(props) {
                     alt="Two friends and me in Korea."/>
             </div>
             <div>
-                This is a picture of two of my friends and me in Korea.
-            </div>
-            <div>
                 We got grossly overcharged by the lady at this food cart, but it was worth it
-                because we made some friends that tooks us out.
+                because we made some friends that took us out.
             </div>
 
             <div style={{paddingTop: 10, ...caption}}>
@@ -246,6 +246,17 @@ function Show(props) {
                 ecommerce sites we used.
             </div>
 
+        </div>,
+
+        <div>
+            <div>
+                I've left Moonlight but the app I wrote is still up and running
+                and they use it every day for inventory sync and shipping orders.
+            </div>
+
+            <div style={{paddingTop: 10}}>
+                I believe they are trying to build where I left off.
+            </div>
         </div>,
 
         <div>
