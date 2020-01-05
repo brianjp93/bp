@@ -145,7 +145,7 @@ function Home() {
                             textAlign: 'center',
                             color: 'grey',
                         }}>
-                        kinda like projects, but littler
+                        kinda like projects, but little-er
                     </div>
 
 
