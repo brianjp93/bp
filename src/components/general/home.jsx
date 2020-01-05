@@ -166,8 +166,10 @@ function Home() {
                                 for guitar.  <b>SO</b>, I created this <i>chrome extension</i> to
                                 show the piano chord diagram when you hover over chords in ultimate-guitar.com.
                             </div>
-                            <div>
-                                <img style={{maxWidth: '100%'}} src="/static/ugpiano_demo.gif" alt=""/>
+                            <div style={{marginTop: 5}}>
+                                <a target='_blank' href="/static/ugpiano_demo.gif">
+                                    <img style={{maxWidth: '100%'}} src="/static/ugpiano_demo.gif" alt=""/>
+                                </a>
                             </div>
                         </div>
                         <div style={{height: 10}}></div>
