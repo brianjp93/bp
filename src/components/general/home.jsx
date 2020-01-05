@@ -15,7 +15,7 @@ function Home() {
                     <Grid item xs={3}>
                         <a href="https://github.com/brianjp93/aoc2019">
                             <img
-                                style={{height: 150}}
+                                style={{height: 150, borderRadius: 6}}
                                 src="/static/day15.gif"
                                 alt="AOC Day 15 animation"
                                 title="An animation of a BFS of an unexplored maze. This was for the 15th day of AOC2019."/>
@@ -168,7 +168,7 @@ function Home() {
                             </div>
                             <div style={{marginTop: 5}}>
                                 <a target='_blank' href="/static/ugpiano_demo.gif">
-                                    <img style={{maxWidth: '100%'}} src="/static/ugpiano_demo.gif" alt=""/>
+                                    <img style={{maxWidth: '100%', borderRadius: 6}} src="/static/ugpiano_demo.gif" alt=""/>
                                 </a>
                             </div>
                         </div>
