@@ -18,9 +18,6 @@ function App() {
         <div>
           <NavBar />
           <Switch>
-            {/*<Route path='/contact'>
-              <Contact />
-            </Route>*/}
             <Route exact path="/zernike">
               <Zernike />
             </Route>
@@ -31,6 +28,14 @@ function App() {
               <Home />
             </Route>
           </Switch>
+
+          <div style={{paddingLeft: 15, color: 'grey'}}>
+            <div>
+              I'm cool, you're a nerd, hurray.
+            </div>
+
+            <div style={{height: 20}}></div>
+          </div>
         </div>
       </Router>
     </div>

@@ -7,6 +7,7 @@ import {
 
 function Home() {
     const div_width = 400
+    const link_style = {fontWeight: 'bold'}
     return (
         <div>
             <div style={{paddingLeft: 30, paddingRight: 30, marginTop: 30, marginBottom: 400}}>
@@ -68,7 +69,7 @@ function Home() {
 
                     <div style={{maxWidth: div_width}}>
                         
-                        <Link to='/zernike'>Zernike Polynomials</Link>{' '}- bend the light
+                        <Link to='/zernike' style={link_style}>Zernike Polynomials</Link>{' '}- bend the light
                         <div style={{marginLeft: 30}}>
                             <div style={{marginTop: 5}}>
                                 During my junior year, I joined a physics lab that was dealing
@@ -80,6 +81,7 @@ function Home() {
                         <div style={{height: 10}}></div>
 
                         <a
+                            style={link_style}
                             target='_blank'
                             rel="noopener noreferrer"
                             href="http://www.hardstuck.club/na/import%20antigrvty/">
@@ -102,6 +104,7 @@ function Home() {
                         <div style={{height: 10}}></div>
 
                         <a
+                            style={link_style}
                             target='_blank'
                             rel="noopener noreferrer"
                             href="http://suitesale.com">
@@ -127,6 +130,50 @@ function Home() {
                         
                     </div>
                 </div>
+
+
+                <div style={{height: 30}}></div>
+                <div>
+                    <div style={{fontSize: 25, maxWidth: div_width, textAlign: 'center'}}>
+                        Little Projects
+                    </div>
+                    <div
+                        style={{
+                            marginTop: -5,
+                            fontSize: 14,
+                            maxWidth: div_width,
+                            textAlign: 'center',
+                            color: 'grey',
+                        }}>
+                        kinda like projects, but littler
+                    </div>
+
+
+                    <div style={{maxWidth: div_width}}>
+                        
+                        <a
+                            target='_blank'
+                            rel="noopener noreferrer"
+                            href='https://chrome.google.com/webstore/detail/ugpiano/ghafgonoapifjmpfpcnkbjlihapolngi'
+                            style={link_style}>UGPiano</a>{' '}- show me the chords
+                        <div style={{marginLeft: 30}}>
+                            <div style={{fontSize: 'small', fontWeight: 'bold'}}>
+                                Chrome Extension
+                            </div>
+                            <div style={{marginTop: 5}}>
+                                I like to play guitar.  I use ultimate-guitar.com all of the time
+                                to see songs and their chords.  Sadly, they only show chord diagrams
+                                for guitar.  <b>SO</b>, I created this <i>chrome extension</i> to
+                                show the piano chord diagram when you hover over chords in ultimate-guitar.com.
+                            </div>
+                            <div>
+                                <img style={{maxWidth: '100%'}} src="/static/ugpiano_demo.gif" alt=""/>
+                            </div>
+                        </div>
+                        <div style={{height: 10}}></div>
+                    </div>
+                </div>
+
             </div>
         </div>
     )
