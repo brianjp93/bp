@@ -173,6 +173,43 @@ function Home() {
                             </div>
                         </div>
                         <div style={{height: 10}}></div>
+
+                        <a
+                            target='_blank'
+                            rel="noopener noreferrer"
+                            href='https://github.com/brianjp93/snake-pygame'
+                            style={link_style}>Snake</a>{' '}- eat all the apples
+                        <div style={{marginLeft: 30}}>
+                            <div style={{fontSize: 'small', fontWeight: 'bold'}}>
+                                pygame, BFS shortest path
+                            </div>
+                            <div style={{marginTop: 5}}>
+                                I never used pygame before, but it seems useful for creating
+                                not just games, but maybe even simple UIs or animations.
+
+                                I made this snake game with pygame, following along with{' '}
+                                <a href="https://pythonspot.com/snake-with-pygame/">this tutorial</a>.
+                                I changed it quite a bit to be easier for me to to wrap my head around.
+
+                                I also added in a bot to play the game.  The file is called{' '}
+                                <i>neuralsnake.py</i> because I wanted it to be a neural net that
+                                played the game, but for now it just uses <b>BFS</b> to find the
+                                shortest path to the next apple.
+                            </div>
+                            <div style={{marginTop: 5, textAlign: 'center'}}>
+                                <a
+                                    rel='noopener noreferrer'
+                                    target='_blank'
+                                    href="https://raw.githubusercontent.com/brianjp93/snake-pygame/master/bfs.gif">
+                                    <img
+                                        style={{maxWidth: '100%', borderRadius: 6}}
+                                        src="https://raw.githubusercontent.com/brianjp93/snake-pygame/master/bfs.gif"
+                                        alt="snake game gif with bfs" />
+                                </a>
+                            </div>
+                        </div>
+                        <div style={{height: 10}}></div>
+
                     </div>
                 </div>
 

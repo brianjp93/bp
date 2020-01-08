@@ -7,6 +7,8 @@ import useStyles from '../general/mystyle'
 
 function Zernike() {
     const classes = useStyles()
+
+    const colorful_zernike = 'https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/10682283_10203113107454627_9208684185802097742_o.jpg?_nc_cat=108&_nc_ohc=Rh9V3V87YUwAX-jxfDi&_nc_ht=scontent-lax3-1.xx&oh=7df1ca812023341a4fae49a2f2f1b44a&oe=5EA1D6E6'
     return (
         <Container maxWidth='md'>
             <div>
@@ -24,6 +26,24 @@ function Zernike() {
                         Zernike Notes and Computation
                     </a>
                 </p>
+
+                <Card className={classes.card}>
+                    <div>
+                        Some cool plots that came out of the math.
+                    </div>
+                    <div style={{height:10}}></div>
+                    <div>
+                        <a
+                            rel='noopener noreferrer'
+                            target='_blank'
+                            href={colorful_zernike}>
+                            <img
+                                style={{maxWidth: '100%'}}
+                                src={colorful_zernike}
+                                alt="Some cool plots of zernike polynomials."/>
+                        </a>
+                    </div>
+                </Card>
 
                 <Card className={classes.card}>
                     <div className="panel-heading">
@@ -102,15 +122,6 @@ function Zernike() {
                             transparent object with a constant index of refraction <Latex>$n$</Latex> but varying thickness <Latex>$d$</Latex>.
                             This can also be done using a GRIN lens with varying <Latex>$n$</Latex> and constant <Latex>$d$</Latex>.
                         </p>
-                        <p>
-                            Take a look at the following pristine drawing.  Wow, that should be in a
-                            museum somewhere.  Just look at those strokes.  Anyway...<br/>
-                            This is meant to be a drawing of a "Rod Lens", a lens where the index
-                            of refraction decreases radially from the center.
-                        </p>
-                        <div className="photo">
-                            <img alt="Example of light bending through GRIN lens" src="http://brianjp93.com/GRIN_lens_example.jpg" style={{width: 300}}/>
-                        </div>
                         <div className="computation">
                             <p>
                                 Let's say that at most, we want a phase shift of 2pi.
