@@ -206,7 +206,7 @@ function Day6(props) {
                 <div style={{textAlign: 'center', marginTop:8}}>
                     <img
                         style={{maxWidth: '100%'}}
-                        src="/static/aoc2018/day6/map.png"
+                        src="/static/aoc2018/day6/map.jpg"
                         alt="A map which shows which coordinate is closest to every point." />
                 </div>
                 <div style={{height: 30}}></div>
