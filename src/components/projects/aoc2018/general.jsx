@@ -9,6 +9,15 @@ const day_cards = [
     <Day6 />,
 ]
 
+const quote_style = {
+    padding: 20,
+    color: '#484848',
+    borderLeftColor: '#777676',
+    borderLeftStyle: 'solid',
+    borderRadius: 8,
+    background: '#c5c5c570'
+}
+
 function Aoc2018(props){
     return (
         <div>
@@ -27,6 +36,11 @@ function Aoc2018(props){
                     I had a lot of fun solving the 2019 AOC problems, so now I'm doing
                     the 2018 set and I thought I'd write out my thought process as I did
                     them.
+                </div>
+                <div style={{height: 30}}></div>
+                <div style={quote_style}>
+                    I have only finished a few of these at this time.  We'll see if I end up
+                    writing about all my solutions or not.
                 </div>
 
                 {day_cards.map((elt, key) => {

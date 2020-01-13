@@ -26,7 +26,20 @@ function NavBar() {
                     <div style={{display: 'inline-block', marginLeft: 30}}></div>
                     <Link to='/about' style={{textDecoration: 'none', verticalAlign: 'sub'}}>???</Link>
                 </Typography>
-            
+
+                <Typography variant="h6">
+                    <div style={{display: 'inline-block', marginLeft: 30}}></div>
+                    <Link
+                        to='/aoc2018' 
+                        style={{
+                            textDecoration: 'none',
+                            verticalAlign: 'sub',
+                            fontSize: 15
+                        }}>
+                        AOC 2018
+                    </Link>
+                </Typography>
+
             </Toolbar>
         </AppBar>
     )
