@@ -9,6 +9,12 @@ body {
 }
 
 code {
+  font-size: 14px;
+  border-radius: 8px;
   font-family: Monaco, source-code-pro, Menlo, Consolas, 'Courier New',
     monospace;
+}
+
+img {
+    border-radius: 8px;
 }

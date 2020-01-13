@@ -10,6 +10,7 @@ import Home from './components/general/home'
 import Zernike from './components/projects/zernike'
 import NavBar from './components/general/navbar'
 import About from './components/general/about'
+import Aoc2018 from './components/projects/aoc2018/general.jsx'
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         <div>
           <NavBar />
           <Switch>
+            <Route exact path="/aoc2018">
+              <Aoc2018 />
+            </Route>
             <Route exact path="/zernike">
               <Zernike />
             </Route>
