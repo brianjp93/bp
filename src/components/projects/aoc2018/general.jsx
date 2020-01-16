@@ -3,9 +3,17 @@ import {
     Container,
 } from '@material-ui/core'
 
+import Day1 from './day1'
+import Day2 from './day2'
+import Day3 from './day3'
+import Day4 from './day4'
 import Day6 from './day6'
 
 const day_cards = [
+    <Day1 />,
+    <Day2 />,
+    <Day3 />,
+    <Day4 />,
     <Day6 />,
 ]
 
@@ -29,6 +37,13 @@ function Aoc2018(props){
                         target='_blank'
                         href="https://github.com/brianjp93/aoc2018/">
                             >> github repo
+                    </a>
+                    <br />
+                    <a 
+                        rel="noopener noreferrer"
+                        target='_blank'
+                        href="https://adventofcode.com/2018">
+                        >> Advent of Code 2018
                     </a>
                 </div>
                 <div style={{height: 30}}></div>
