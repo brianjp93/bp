@@ -35,7 +35,7 @@ function App() {
 
           <div style={{paddingLeft: 15, color: 'grey'}}>
             <div>
-              I'm cool, you're a nerd, hurray.
+              I'm cool, you're a nerd, nerd.
             </div>
 
             <div style={{height: 20}}></div>

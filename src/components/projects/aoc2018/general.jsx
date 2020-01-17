@@ -8,6 +8,7 @@ import Day2 from './day2'
 import Day3 from './day3'
 import Day4 from './day4'
 import Day6 from './day6'
+import Day12 from './day12'
 
 const day_cards = [
     <Day1 />,
@@ -15,6 +16,7 @@ const day_cards = [
     <Day3 />,
     <Day4 />,
     <Day6 />,
+    <Day12 />,
 ]
 
 const quote_style = {
