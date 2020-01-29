@@ -57,7 +57,7 @@ function Day18(props) {
                 className={classes.card}
                 style={{marginTop: 10}}>
                 <h3>
-                    Day 1{' '}
+                    Day 18{' '}
                     <a
                         style={{fontSize: 'small'}}
                         rel='noopener noreferrer'
