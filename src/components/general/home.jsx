@@ -26,7 +26,7 @@ function Home() {
                             Brian Perrett
                         </div>
                         <div>
-                            Denver, CO 80204
+                            Denver, CO
                         </div>
 
                         <div style={{height: 10}}>
@@ -34,7 +34,7 @@ function Home() {
 
                         <div>
                             <a target='_blank' rel="noopener noreferrer" href="https://github.com/brianjp93">
-                                >>> github
+                                &gt;&gt;&gt; github
                             </a>
                         </div>
 
