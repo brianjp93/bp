@@ -8,6 +8,11 @@ body {
   background: url('/static/noise.png');
 }
 
+header.MuiAppBar-root {
+  background: url('/static/noise.png');
+  box-shadow: none;
+}
+
 code {
   font-size: 14px;
   border-radius: 8px;
