@@ -14,7 +14,7 @@
     "react-highlight.js": "^1.0.7",
     "react-latex": "^1.5.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0"
+    "react-scripts": "5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
