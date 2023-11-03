@@ -8,7 +8,7 @@ import useStyles from '../general/mystyle'
 function Zernike() {
     const classes = useStyles()
 
-    const colorful_zernike = 'https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/10682283_10203113107454627_9208684185802097742_o.jpg?_nc_cat=108&_nc_ohc=Rh9V3V87YUwAX-jxfDi&_nc_ht=scontent-lax3-1.xx&oh=7df1ca812023341a4fae49a2f2f1b44a&oe=5EA1D6E6'
+    const colorful_zernike = '/static/zernike-collage.jpg'
     return (
         <Container maxWidth='md'>
             <div>
