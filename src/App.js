@@ -12,6 +12,7 @@ import NavBar from './components/general/navbar'
 import About from './components/general/about'
 import Aoc2018 from './components/projects/aoc2018/general.jsx'
 import Hilbert from './components/projects/hilbert/hilbert.jsx'
+import Keyboard from './components/projects/keyboard';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
             </Route>
             <Route exact path='/about'>
               <About />
+            </Route>
+            <Route exact path='/keyboard'>
+              <Keyboard />
             </Route>
             <Route path="/">
               <Home />

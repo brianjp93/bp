@@ -18,8 +18,15 @@ code {
   border-radius: 8px;
   font-family: Monaco, source-code-pro, Menlo, Consolas, 'Courier New',
     monospace;
+  padding: 2px 8px;
+  background-color: rgb(130, 144, 133);
+  border-radius: 4px;
 }
 
 img {
     border-radius: 8px;
+}
+
+ul li {
+    margin-top: 10px;
 }

@@ -31,13 +31,26 @@ function NavBar() {
                     <Typography variant="h6">
                         <div style={{display: 'inline-block', marginLeft: 30}}></div>
                         <Link
-                            to='/aoc2018' 
+                            to='/aoc2018'
                             style={{
                                 textDecoration: 'none',
                                 verticalAlign: 'sub',
                                 fontSize: 15
                             }}>
                             AOC 2018
+                        </Link>
+                    </Typography>
+
+                    <Typography variant="h6">
+                        <div style={{display: 'inline-block', marginLeft: 30}}></div>
+                        <Link
+                            to='/keyboard'
+                            style={{
+                                textDecoration: 'none',
+                                verticalAlign: 'sub',
+                                fontSize: 15
+                            }}>
+                            Keyboard
                         </Link>
                     </Typography>
 
