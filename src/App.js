@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   // Link
 } from "react-router-dom"
@@ -20,26 +20,14 @@ function App() {
       <Router>
         <div>
           <NavBar />
-          <Switch>
-            <Route exact path="/hilbert">
-              <Hilbert />
-            </Route>
-            <Route exact path="/aoc2018">
-              <Aoc2018 />
-            </Route>
-            <Route exact path="/zernike">
-              <Zernike />
-            </Route>
-            <Route exact path='/about'>
-              <About />
-            </Route>
-            <Route exact path='/keyboard'>
-              <Keyboard />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
+          <Routes>
+            <Route path="/hilbert" element={<Hilbert />} />
+            <Route path="/aoc2018" element={<Aoc2018 />} />
+            <Route path="/zernike" element={<Zernike />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/keyboard' element={<Keyboard />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
 
           <div style={{paddingLeft: 15, color: 'grey'}}>
             <div>

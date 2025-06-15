@@ -40,14 +40,14 @@ function Aoc2018(props){
                         rel="noopener noreferrer"
                         target='_blank'
                         href="https://github.com/brianjp93/aoc2018/">
-                            >> github repo
+                            &gt;&gt; github repo
                     </a>
                     <br />
-                    <a 
+                    <a
                         rel="noopener noreferrer"
                         target='_blank'
                         href="https://adventofcode.com/2018">
-                        >> Advent of Code 2018
+                        &gt;&gt; Advent of Code 2018
                     </a>
                 </div>
                 <div style={{height: 30}}></div>

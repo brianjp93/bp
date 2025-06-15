@@ -60,7 +60,6 @@ function Home() {
                             </Table>
                         </div>
                     </Grid>
-                    
                 </Grid>
 
                 <div style={{height: 30}}></div>
@@ -68,7 +67,6 @@ function Home() {
                     <div style={{fontSize: 25, maxWidth: div_width, textAlign: 'center'}}>Projects</div>
 
                     <div style={{maxWidth: div_width}}>
-                        
                         <Link to='/zernike' style={link_style}>Zernike Polynomials</Link>{' '}- bend the light
                         <div style={{marginLeft: 30}}>
                             <div style={{marginTop: 5}}>
@@ -102,14 +100,7 @@ function Home() {
                             </div>
                         </div>
                         <div style={{height: 10}}></div>
-
-                        <a
-                            style={link_style}
-                            target='_blank'
-                            rel="noopener noreferrer"
-                            href="http://suitesale.com">
-                            suitesale.com
-                        </a>{' '}- Inventory/Order Management System
+                        <b>suitesale</b> - Inventory/Order Management System
                         <div style={{marginLeft: 30}}>
                             <div>
                                 <div style={{fontSize: 'small', fontWeight: 'bold'}}>
@@ -127,7 +118,6 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
 
@@ -150,7 +140,6 @@ function Home() {
 
 
                     <div style={{maxWidth: div_width}}>
-                        
                         <a
                             target='_blank'
                             rel="noopener noreferrer"
